@@ -4,9 +4,38 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
+        double width = 0;
+        double length = 0;
+        double area = 0;
 
         Scanner scanner = new Scanner(System.in);
+        System.out.print("enter rectangle Length : ");
+        length = scanner.nextDouble();
 
+
+        System.out.print("enter rectangle width : ");
+         width = scanner.nextDouble();
+
+
+         area = width * length;
+
+
+        System.out.println( "rectangle area is " + area + "cm^2");
+
+        scanner.close();
+/*
+        //common java problem whe we declare a number before string
+        System.out.println("your age");
+        int yourAge = scanner.nextInt();
+        //to solve ad this line
+        scanner.nextLine();
+
+        System.out.println("your name");
+        String yourName = scanner.nextLine();
+
+
+        System.out.println("you are " + yourAge + " Y old");
+        System.out.println("your name" + yourName);
         //string user input
         System.out.print("Enter your name: ");
        String name = scanner.nextLine();
@@ -30,7 +59,7 @@ public class Main {
         }else{
             System.out.println("you aren't the student");
         }
-        scanner.close();
+        */
     }
 }
 
