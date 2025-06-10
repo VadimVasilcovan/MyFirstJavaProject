@@ -27,7 +27,7 @@ public class logicalOperators {
         if(username.length() >= 4 && username.length() <=14 && !username.contains(" ")){
             System.out.println("Every thing is fine");
         }else {
-            System.out.println("Suck dick");
+            System.out.println("something went wrong");
         }
         scanner.close();
     }
