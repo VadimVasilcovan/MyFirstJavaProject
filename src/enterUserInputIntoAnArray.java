@@ -5,7 +5,7 @@ public class enterUserInputIntoAnArray {
         Scanner scanner = new Scanner(System.in);
         String[] foods;
         int size;
-      
+
 
         System.out.print("What number of food do you want?: ");
         size = scanner.nextInt();
