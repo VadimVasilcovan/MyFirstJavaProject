@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class bankingProgram {
+       static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
         int customerChoice;
         double balance = 20;
@@ -10,7 +11,6 @@ public class bankingProgram {
 
 
 
-        Scanner scanner = new Scanner(System.in);
 
     do{
         System.out.println("========================");
@@ -47,7 +47,6 @@ public class bankingProgram {
     }
 
     static double depositMoney(double deposit){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("how match you want to deposit");
                 deposit =scanner.nextDouble();
         return deposit;
@@ -55,7 +54,6 @@ public class bankingProgram {
     }
 
     static double withdrawMoney(double withdrawAmount){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("how match you want to withdraw ");
     withdrawAmount = scanner.nextDouble();
 
