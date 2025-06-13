@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class quizGame {
     public static void main(String[] args){
-        int userInput;
+
         String[] questions = {"what is the capital of France",
                 "Which planet is known as the Red Planet?",
                 "Who wrote the play Romeo and Juliet?"};
