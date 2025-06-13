@@ -5,7 +5,7 @@ public class d2Arrays {
 
       /*  String[] fruits = {"apple", "orange", "banana"};
         String[] vegetables = {"potato", "onion", "carrot"};
-        String[] meats = {"chicken", "pork", "beef"};
+        String[] meats = {"chicken", "pork", "beef"};s
 
 
         String[][] groceries = {{"apple", "orange", "banana"},
