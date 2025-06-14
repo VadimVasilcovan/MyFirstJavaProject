@@ -14,7 +14,7 @@ public class slotMachine {
         String[] result = new String[slotFruits.length];
         Random random = new Random();
 
-       
+
         GameInput input = play();
 
         double yourBet = input.yourBet;
@@ -79,9 +79,7 @@ public class slotMachine {
                 System.out.println("This is not a valid number. Please enter 1 or 10.");
             }
         } while (spinRepetition != 1 && spinRepetition != 10);
-
-
-
+        
         return new GameInput(yourBet, spinRepetition);
     }
 }
