@@ -1,4 +1,4 @@
-package methodOverriding;
+package method_Overriding;
 
 public class main {
     public static void main(String[] args){

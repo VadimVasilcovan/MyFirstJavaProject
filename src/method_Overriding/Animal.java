@@ -1,4 +1,4 @@
-package methodOverriding;
+package method_Overriding;
 
 public class Animal {
     void move(){
