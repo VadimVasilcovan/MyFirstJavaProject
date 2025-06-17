@@ -9,7 +9,7 @@ public class Main {
         Rabbit rabbit = new Rabbit();
         Hawk hawk = new Hawk();
         Fish fish = new Fish();
-        
+
         rabbit.flee();
         hawk.hunt();
         fish.hunt();
